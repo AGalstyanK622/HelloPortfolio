@@ -43,8 +43,10 @@ function loadPlanets() {
     for(var key in planets){
     addSphere({
         x: planets[key].distance,
+        y: Math.tan(planets[key].tilt * (Math.PI / 180)) * planets[key].distance,
         vz: planets[key].velocity,
-        name: key
+        name: key,
+        tilt: Math.tan(planets[key].tilt)
     })
     console.log(key);
 }
