@@ -26,13 +26,13 @@ function main() {
 function setupWorld() {
     //drawAxes();
 
-    addSphere({
-        x: 0,
-        y: 100,
-        vx: 1
-    })
+    // addSphere({
+    //     x: 0,
+    //     y: 100,
+    //     vx: 1
+    // })
 
-    loadPlanets()
+    loadPlanets();
 }
 
 
@@ -48,7 +48,7 @@ function loadPlanets() {
         name: key,
         tilt: Math.tan(planets[key].tilt)
     })
-    console.log(key);
+    //console.log(key);
 }
 
 
