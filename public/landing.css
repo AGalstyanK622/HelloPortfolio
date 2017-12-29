@@ -1,6 +1,6 @@
 html
 {
-	background: #000;
+	background: #104F31;
 }
 body {
     -webkit-animation-delay: 0.1s;
@@ -9,6 +9,7 @@ body {
     -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: linear;
     padding-top: 10px;
+    font-family: 'Courgette', cursive;
 }
 
 @-webkit-keyframes fontfix {
@@ -18,7 +19,6 @@ body {
 
 *, h1, h2
 {
-	font-family: 'Quicksand', sans-serif;
 	font-weight: 100;
 	color: white;
 }
